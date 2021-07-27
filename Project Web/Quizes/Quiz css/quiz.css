@@ -1,0 +1,74 @@
+
+/*body*/.quizContainer
+{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.quizContainer h1
+{
+    text-align: center;
+}
+
+.quizContainer .button
+{
+    width: 80px;
+    height: 25px;
+    text-align: center;
+    float:right;
+    background-color: #fff;
+    margin: 0 2px 0 2px;
+    cursor: pointer;
+}
+
+.quizContainer .button a
+{
+    text-decoration: none;
+    color: #555;
+    line-height: 25px;
+}
+
+.quizContainer #container
+{
+    width:100%;
+    margin: 150px auto;
+    padding: 50px 30px;
+    background-color: #3f51b5;
+    background-color: rgb(42, 169, 224);
+    border-radius:3px;
+    color: #fff;
+    box-shadow: 0 0 10px 0 #999;
+}
+
+.quizContainer ul
+{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    width: 500px;
+}
+
+.quizContainer ul li
+{
+    background: #223394;
+    background-color: rgb(2, 112, 187);
+    width: 200px;
+    margin: 10px;
+    padding: 5px;
+    display: inline-block;
+}
+
+.quizContainer #prev
+{
+    display:none;
+}
+
+.quizContainer #start
+{
+    display:none;
+    width: 100px;
+}
+
+.quizContainer input[type="radio"]
+{
+    cursor: pointer;
+}
